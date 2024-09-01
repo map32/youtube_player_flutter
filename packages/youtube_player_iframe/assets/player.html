@@ -31,6 +31,20 @@
         height: 100% !important;
         pointer-events: inherit;
       }
+      .overlay {
+            position: absolute; /* Absolute position to overlay on top of the iframe */
+            top: 0; /* Position at the top */
+            left: 0; /* Position at the left */
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            pointer-events: none; /* Allow click events to pass through the overlay to the iframe */
+            display: flex; /* Use flexbox for centering text */
+            justify-content: center; /* Center text horizontally */
+            align-items: center; /* Center text vertically */
+            color: white; /* Text color */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+            font-size: 24px; /* Font size */
+        }
     </style>
     <title>Youtube Player</title>
   </head>
@@ -38,6 +52,9 @@
   <body>
     <div class="embed-container">
       <div id="<<playerId>>"></div>
+        <div class="overlay">
+          Overlay Text
+      </div>
     </div>
 
     <script>
