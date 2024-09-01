@@ -15,6 +15,8 @@
 
 ---
 
+this is a forked repo for my own use for flutter_mplayer
+
 Flutter plugin for seamlessly playing or streaming YouTube videos inline using the official [**iFrame Player API**](https://developers.google.com/youtube/iframe_api_reference). This package offers extensive customization by exposing nearly the full range of the iFrame Player API's features, ensuring complete flexibility and control.
 
 <a href="https://youtube.sarbagyastha.com.np"><img src="https://raw.githubusercontent.com/sarbagyastha/youtube_player_flutter/master/packages/youtube_player_iframe/screenshots/demo.png" width="200" alt="Demo Screenshot"></a>
